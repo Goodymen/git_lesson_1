@@ -137,22 +137,28 @@
 
 
 
-let obj = {
-    name: 'Andrey',
-    age: 36,
-    email: 'mybox@mail.ru',
-    telefon: '+79099638531'
-};
+// let obj = {
+//     name: 'Andrey',
+//     age: 36,
+//     email: 'mybox@mail.ru',
+//     telefon: '+79099638531'
+// };
 
-obj.job = 'Freelancer in Life';
+// obj.job = 'Freelancer in Life';
 
-console.log (obj["name"]);
+// console.log (obj["name"]);
 
-for (let key in obj) {
-    console.log (obj[key]);
-}
+// for (let key in obj) {
+//     console.log (obj[key]);
+// }
 
+let obj = {};
 
+obj.name = 'Andrey';
+obj.age = 36;
+obj.job = 'freelancer';
+
+console.log (obj);
 
 
 // for (let i = 0; i < obj.length; i++) {
